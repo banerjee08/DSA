@@ -9,4 +9,9 @@ function reverse(str) {
     console.log(result)
 }
 
+function reverse2(str){
+    return [...str].reverse().join("")
+}
+
 reverse(greeting)
+reverse2(greeting)
